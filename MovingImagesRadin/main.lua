@@ -13,7 +13,7 @@ scrollSpeed = 3
 local backgroundImage = display.newImageRect("Images/background.png", 2048, 1536)
 
 -- character image with width and height
-local rocketship = display.newImageRect("Image/rocketship.png", 200, 200)
+local rocketship = display.newImageRect("Images/rocketship.png", 200, 200)
 
 -- set the image to be transparent
-rocketship.alpha = 0
+rocketship.alpha = 1
