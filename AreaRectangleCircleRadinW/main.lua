@@ -24,10 +24,10 @@ display.setDefault("background" , 153/255, 51/255, 255/255)
 display.setStatusBar(display.HiddenStatusBar)
 
 --draw the rectangle that is half the width and height of the screen size.
-myRectangle = display.newRect(0,0) widthOfRectangle, heightOfRectangle
+myRectangle = display.newRect (0,0) widthOfRectangle, heightOfRectangle
 
 --draw the rectangle is half the width and height of the screen size.
-myRectangle = display.newRect(0,0, widthOfRectangle, heightOfRectangle)
+myRectangle = display.newRect(0,0) widthOfRectangle, heightOfRectangle
 
 --anchor the rectangle in the top left corner of the screen and set its (x,y) position
 myRectangle.anchorX = 0
