@@ -13,7 +13,7 @@
 
 local areaText
 local textsize = 50
-local myRectangle
+local Rectangle
 local widthOfRectangle = 350
 local heightOfRectangle = 200
 
@@ -24,25 +24,25 @@ display.setDefault("background" , 153/255, 51/255, 255/255)
 display.setStatusBar(display.HiddenStatusBar)
 
 --draw the rectangle that is half the width and height of the screen size.
-myRectangle = display.newRect (0,0) widthOfRectangle, heightOfRectangle
+Rectangle = display.newRect (0,0) widthOfRectangle, heightOfRectangle
 
 --draw the rectangle is half the width and height of the screen size.
-myRectangle = display.newRect(0,0) widthOfRectangle, heightOfRectangle
+Rectangle = display.newRect(0,0) widthOfRectangle, heightOfRectangle
 
 --anchor the rectangle in the top left corner of the screen and set its (x,y) position
-myRectangle.anchorX = 0
-myRectangle.anchorY = 0
-myRectangle.x = 20
-myRectangle.y = 20
+Rectangle.anchorX = 0
+Rectangle.anchorY = 0
+Rectangle.x = 20
+Rectangle.y = 20
 
 -- set the width of the border
-myRectangle.strokeWidth = 20
+Rectangle.strokeWidth = 20
 
 --set the colour of the rectangle
-myRectangle:setFillColor(0.7, 0.1 0.3)
+Rectangle:setFillColor(0.7, 0.1 0.3)
 
 -- set the color of border
-myRectangle:setFillColor(0, 1, 0)
+Rectangle:setFillColor(0, 1, 0)
 
 --calculate the area 
 areaofRectangle:setStrokeColor(0, 1, 0)
